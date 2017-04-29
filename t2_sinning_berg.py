@@ -190,5 +190,7 @@ print("Las coordenadas (x0,y0,z0) del centro de masa total es :\n",X0_TOTAL,Y0_T
 #se calcula la reaccion en el eje Y y luego en el eje x
 Ry=peso_total*X0_TOTAL
 Rx=peso_total*Y0_TOTAL
-print("El valor en de la reaccion en el eje X es :\n",Rx,"Nmm")
-print("El valor en de la reaccion en el eje Y es :\n",Ry,"Nmm")
+print("El valor  de la reaccion de momento en el eje X es :\n",Rx,"Newton por milimetro")
+print("El valor  de la reaccion de momento en el eje Y es :\n",Ry,"Newton por milimetro")
+print("El valor de la reaccion de momento en el eje Z es :\n",0  ,"Newton por milimetro")
+print("Los valores de las fuerzas son: Fx=0,Fy=0,Fz=",peso_total,)
